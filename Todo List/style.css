@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  border-radius: 28px;
+  text-align: center;
+  padding-top: 35px;
+  border: 3px solid black;
+  margin: 35px auto;
+  max-width: 700px;
+  min-height: 200px;
+}
+/* lebel */
+.lebel {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+/*  text area */
+#inputlist {
+  border-radius: 5px;
+  border: 2px solid rgb(6, 99, 185);
+}
+/* button */
+input {
+  margin: 0px 5px;
+  padding: 5px 10px;
+  background-color: cornflowerblue;
+}
+.output {
+  margin: auto;
+  padding: 5px;
+  max-width: 300px;
+  min-height: 100px;
+  /* border: 2px solid black; */
+
+  /* text-align: center; */
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Serif", serif;
+}
+
+/* container */
+.container {
+  margin: 10px auto;
+  max-width: 500px;
+  text-align: center;
+}
+.label {
+  padding: 10px 0px;
+  font-size: 3.3rem;
+  color: black;
+  font-weight: bold;
+}
+
+.label2 {
+  padding: 10px 0px;
+  font-size: 1.3rem;
+  color: green;
+  font-weight: bold;
+}
+input {
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+.Name {
+  display: flex;
+}
+#add {
+  margin: 15px 5px;
+  padding: 5px;
+  width: 120px;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(22, 136, 22);
+  font-weight: bold;
+}
+textarea {
+  padding: 8px;
+  margin: 0px 0px;
+  /* width: 550px; */
+}
+/* 
+*/
+#content {
+  padding: 10px 35px;
+  display: flex;
+  flex-flow: wrap;
+  /* text-align: center; */
+  justify-content: space-between;
+}
+
+.view-details {
+  margin: 15px 10px;
+  padding: 5px;
+  width: 120px;
+  border-style: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: rgb(70, 52, 175);
+  font-weight: bold;
+}
+.innerdiv {
+  padding: 12px;
+  margin: 5px 20px;
+  width: 250px;
+  position: relative;
+  /* background-color: rgb(209, 200, 200); */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* display: flex; */
+}
+
+/* model */ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

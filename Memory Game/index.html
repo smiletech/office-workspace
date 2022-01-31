@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">Memory Game</div>
+
+    <div class="container">
+      <div class="row">
+        <div
+          class="block"
+          id="one"
+          onclick="showImg(0); this.onclick=null;"
+        ></div>
+        <div
+          class="block"
+          id="two"
+          onclick="showImg(1);this.onclick=null;"
+        ></div>
+        <div
+          class="block"
+          id="three"
+          onclick="showImg(2); this.onclick=null;"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="block"
+          id="four"
+          onclick="showImg(3); this.onclick=null;"
+        ></div>
+        <div
+          class="block"
+          id="five"
+          onclick="showImg(4); this.onclick=null;"
+        ></div>
+        <div
+          class="block"
+          id="six"
+          onclick="showImg(5); this.onclick=null"
+          ;
+        ></div>
+      </div>
+      <!-- <img src="./1.jpeg" alt="action" /> -->
+    </div>
+    <div class="para">
+      <h3>Game Status :-</h3>
+      <p id="msg"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

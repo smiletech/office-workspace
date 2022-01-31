@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <!-- <textarea name="Num" id="" cols="35" rows="4"></textarea> -->
+        <h2 id="textarea">0</h2>
+      </div>
+
+      <div class="calculator">
+        <ul>
+          <li onclick="MText(this)">M</li>
+          <li onclick="showText(this)">1</li>
+          <li onclick="showText(this)">2</li>
+          <li onclick="showText(this)">3</li>
+          <li onclick="showOPt(this)">+</li>
+          <li onclick="showText(this)">4</li>
+          <li onclick="showText(this)">5</li>
+          <li onclick="showText(this)">6</li>
+          <li onclick="showOPt(this)">-</li>
+          <li onclick="showText(this)">7</li>
+          <li onclick="showText(this)">8</li>
+          <li onclick="showText(this)">9</li>
+          <li onclick="showOPt(this)">*</li>
+          <li onclick="showOPt(this)">/</li>
+          <li onclick="showText(this)">0</li>
+          <li onclick="showResult(this)">=</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

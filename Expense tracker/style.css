@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Serif", serif;
+}
+
+/* container */
+.container {
+  margin: 10px auto;
+  max-width: 500px;
+  text-align: center;
+}
+.label {
+  padding: 10px 0px;
+  font-size: 3.3rem;
+  color: black;
+  font-weight: bold;
+}
+.label2 {
+  padding: 10px 0px;
+  font-size: 1.3rem;
+  color: green;
+  font-weight: bold;
+}
+input {
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+.DateAmt {
+  padding: 10px 0px;
+}
+/* name */
+#inpName {
+  width: 350px;
+  padding: 5px;
+}
+#add {
+  margin: 15px 5px;
+  padding: 5px;
+  width: 120px;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(22, 136, 22);
+  font-weight: bold;
+}
+.delete1 {
+  margin: 15px 5px;
+  padding: 5px;
+  width: 80px;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(104, 6, 6);
+  font-weight: bold;
+  color: white;
+}
+
+.output {
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+th {
+  margin: 0px 15px;
+  background-color: lightgray;
+}
